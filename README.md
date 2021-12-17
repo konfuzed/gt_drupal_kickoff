@@ -6,6 +6,6 @@ Composer and initial configuration starting point for GTSciences drupal projects
 
 ## Will call
 
- - gt_drupal_profile
- - gt_drupal_sso
- - gt_drupal_theme (modified from gt's theme)
+- gt_drupal_profile
+- gt_drupal_sso
+- gt_drupal_theme (modified from gt's theme)
