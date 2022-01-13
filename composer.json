@@ -26,6 +26,7 @@
     "php": ">=8.0",
     "composer/installers": "^2.0",
     "cweagans/composer-patches": "^1.7",
+    "deployer/deployer": "^7.0@rc",
     "drupal/address": "^1.9",
     "drupal/admin_toolbar": "^3.0",
     "drupal/better_exposed_filters": "^5.0",
@@ -37,7 +38,6 @@
     "drupal/config_import_single": "^1.0",
     "drupal/config_split": "^2.0@beta",
     "drupal/core-composer-scaffold": "^9.3",
-    "drupal/core-project-message": "^9.3",
     "drupal/core-recommended": "^9.3",
     "drupal/crop": "^2.1",
     "drupal/ctools": "^3.7",
@@ -110,6 +110,7 @@
     "allow-plugins": {
       "composer/installers": true,
       "cweagans/composer-patches": true,
+      "deployer/deployer": true,
       "drupal/*": true,
       "gtsciences/*": true,
       "oomphinc/composer-installers-extender": true,
@@ -145,27 +146,6 @@
         "merge-extra": false,
         "merge-extra-deep": false,
         "merge-scripts": false
-    },
-    "drupal-core-project-message": {
-      "include-keys": [
-        "homepage",
-        "support"
-      ],
-      "post-create-project-cmd-message": [
-        "<bg=blue;fg=white>                             </>",
-        "<bg=blue;fg=white>  Congratulations, you&apos;ve installed the Drupal codebase  </>",
-        "<bg=blue;fg=white>  from the drupal/legacy-project template!         </>",
-        "<bg=blue;fg=white>                             </>",
-        "",
-        "<bg=yellow;fg=black>Next steps</>:",
-        "  * Install the site: https://www.drupal.org/docs/8/install",
-        "  * Read the user guide: https://www.drupal.org/docs/user_guide/en/index.html",
-        "  * Get support: https://www.drupal.org/support",
-        "  * Get involved with the Drupal community:",
-        "    https://www.drupal.org/getting-involved",
-        "  * Remove the plugin that prints this message:",
-        "    composer remove drupal/core-project-message"
-      ]
     }
   }
 }
