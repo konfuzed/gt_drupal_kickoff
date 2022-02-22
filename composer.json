@@ -24,7 +24,7 @@
       "type": "composer",
       "url": "https://asset-packagist.org"
     },
-    "gtsciences_profile": {
+    "gt_drupal_profile": {
       "type": "vcs",
       "url": "https://github.com/konfuzed/gt_drupal_profile.git"
     }
