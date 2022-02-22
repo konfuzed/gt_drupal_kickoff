@@ -34,16 +34,15 @@
   "require": {
     "php": ">=8.0",
     "composer/installers": "^2.0",
-    "oomphinc/composer-installers-extender": "^2.0",
     "cweagans/composer-patches": "^1.7",
-    "wikimedia/composer-merge-plugin": "^2.0",
-    "symfony/dotenv": "^6.0",
-    "webflo/drupal-finder": "^1.2",
     "drupal/core-composer-scaffold": "^9.3",
     "drupal/core-recommended": "^9.3",
-    "drush/drush": "^11.0",
     "deployer/dist": "^7.0@rc",
-    "gtsciences/gt_drupal_profile": "dev-main"
+    "drush/drush": "^11.0",
+    "gtsciences/gt_drupal_profile": "dev-main",
+    "oomphinc/composer-installers-extender": "^2.0",
+    "webflo/drupal-finder": "^1.2",
+    "wikimedia/composer-merge-plugin": "^2.0"
   },
   "require-dev": {
     "drupal/core-dev": "^9.3"
@@ -62,7 +61,7 @@
       "drush/*": true,
       "gtsciences/*": true,
       "oomphinc/composer-installers-extender": true,
-      "symfony/dotenv": true,
+      "webflo/drupal-finder": true,
       "wikimedia/composer-merge-plugin": true
     }
   },
