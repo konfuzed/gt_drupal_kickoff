@@ -65,9 +65,6 @@
       "wikimedia/composer-merge-plugin": true
     }
   },
-  "autoload": {
-    "files": ["load.environment.php"]
-  },
   "enable-patching": true,
   "extra": {
     "drupal-scaffold": {
