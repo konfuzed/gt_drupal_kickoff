@@ -6,8 +6,7 @@
   "homepage": "https://www.drupal.org/project/drupal",
   "authors": [
     {
-      "name": "Michael Sheldon, ARCS",
-      "role": "Ass. Dir Web Services"
+      "name": "Michael Sheldon, ARCS"
     }
   ],
   "support": {
@@ -15,16 +14,16 @@
     "email": "web@cos.gatech.edu",
     "chat": "https://www.drupal.org/node/314178"
   },
-  "repositories": {
-    "drupal": {
+  "repositories": [
+    {
       "type": "composer",
       "url": "https://packages.drupal.org/8"
     },
-    "assets": {
+    {
       "type": "composer",
       "url": "https://asset-packagist.org"
     }
-  },
+  ],
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
