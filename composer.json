@@ -66,20 +66,6 @@
     "drupal-scaffold": {
       "locations": {
         "web-root": "web/"
-      },
-      "gitignore": false,
-      "file-mapping": {
-        "[project-root]/.gitattributes": false,
-        "[project-root]/.editorconfig": {
-          "mode": "replace",
-          "path": "assets/editorconfig",
-          "overwrite": true
-        },
-        "[project-root]/sites/default/settings.php": {
-          "mode": "replace",
-          "path": "assets/settings.php",
-          "overwrite": false
-        }
       }
     },
     "installer-paths": {
