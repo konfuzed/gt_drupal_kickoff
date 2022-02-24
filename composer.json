@@ -23,10 +23,6 @@
     "assets": {
       "type": "composer",
       "url": "https://asset-packagist.org"
-    },
-    "gt_drupal_profile": {
-      "type": "vcs",
-      "url": "https://github.com/konfuzed/gt_drupal_profile.git"
     }
   },
   "minimum-stability": "dev",
@@ -39,7 +35,7 @@
     "drupal/core-recommended": "^9.3",
     "deployer/dist": "^7.0@rc",
     "drush/drush": "^11.0",
-    "gtsciences/gt_drupal_profile": "dev-main",
+    "gtsciences/gt_drupal_profile": "^1.0@dev",
     "oomphinc/composer-installers-extender": "^2.0",
     "webflo/drupal-finder": "^1.2",
     "wikimedia/composer-merge-plugin": "^2.0"
