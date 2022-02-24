@@ -109,6 +109,5 @@
       "merge-extra-deep": false,
       "merge-scripts": false
     }
-  },
-  "version": "0.1.0"
+  }
 }
