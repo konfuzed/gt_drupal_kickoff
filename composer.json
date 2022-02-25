@@ -10,9 +10,7 @@
     }
   ],
   "support": {
-    "docs": "https://www.drupal.org/docs/user_guide/en/index.html",
-    "email": "web@cos.gatech.edu",
-    "chat": "https://www.drupal.org/node/314178"
+    "email": "web@cos.gatech.edu"
   },
   "repositories": [
     {
@@ -80,19 +78,6 @@
       "drush/Commands/contrib/{$name}": "type:drupal-drush",
       "web/modules/custom/{$name}": "type:drupal-custom-module",
       "web/themes/custom/{$name}": "type:drupal-custom-theme"
-    },
-    "merge-plugin": {
-      "require": [
-        "web/modules/contrib/*/composer.json",
-        "web/modules/custom/*/composer.json"
-      ],
-      "recurse": true,
-      "replace": false,
-      "ignore-duplicates": false,
-      "merge-dev": true,
-      "merge-extra": false,
-      "merge-extra-deep": false,
-      "merge-scripts": false
     }
   }
 }
