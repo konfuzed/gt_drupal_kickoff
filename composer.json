@@ -37,7 +37,7 @@
     "wikimedia/composer-merge-plugin": "^2.0"
   },
   "require-dev": {
-    "drupal/core-dev": "^10.0@beta"
+    "drupal/core-dev": "^10.0@rc"
   },
   "conflict": {
     "drupal/drupal": "*"
