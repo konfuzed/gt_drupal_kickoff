@@ -3,7 +3,7 @@
   "description": "GT Drupal installer for a more civilized age",
   "type": "project",
   "license": "GPL-2.0-or-later",
-  "homepage": "https://www.drupal.org/project/drupal",
+  "homepage": "https://cos.gatech.edu/",
   "authors": [
     {
       "name": "Michael Sheldon, ARCS"
@@ -25,19 +25,23 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "php": ">=8.1",
+    "php": ">=8.2",
     "composer/installers": "^2.2",
-    "cweagans/composer-patches": "^1.7",
-    "drupal/core-composer-scaffold": "^10.1",
-    "drupal/core-recommended": "^10.1",
+    "cweagans/composer-patches": "^2.0@beta",
+    "drupal/core-composer-scaffold": "^10.2",
+    "drupal/core-recommended": "^10.2",
     "deployer/deployer": "^7.3",
-    "drush/drush": "^12@beta",
-    "gtsciences/gt_profile": "^1.0@dev",
+    "drush/drush": "^12.4",
     "oomphinc/composer-installers-extender": "^2.0",
-    "wikimedia/composer-merge-plugin": "^2.1"
+    "wikimedia/composer-merge-plugin": "^2.1",
+
+    "drupal/admin_toolbar": "^3.4",
+    "drupal/config_import_single": "^2.0",
+    "gtsciences/gt_sso": "dev-main"
   },
   "require-dev": {
-    "drupal/core-dev": "^10.1"
+    "drupal/core-dev": "^10.2",
+    "drupal/module_builder": "^4.0"
   },
   "conflict": {
     "drupal/drupal": "*"
