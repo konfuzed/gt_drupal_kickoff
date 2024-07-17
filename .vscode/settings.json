@@ -1,0 +1,13 @@
+{
+	"files.associations": {
+		"*.engine": "php",
+		"*.inc": "php",
+		"*.info": "php",
+		"*.install": "php",
+		"*.module": "php",
+		"*.profile": "php",
+		"*.test": "php",
+		"*.theme": "php"
+	},
+  "files.insertFinalNewline": true
+}
